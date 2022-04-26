@@ -1,0 +1,32 @@
+name: 'git-pr-release'
+on:
+  push:
+    branches: main
+  workflow_dispatch:
+
+jobs:
+  template:
+    name: 'Template'
+    runs-on: ubuntu-latest
+    env:
+      RUBY_VERSION: 2.7.x
+      GIT_PR_RELEASE_VERSION: 1.4.0
+      GIT_PR_RELEASE_BRANCH_PRODUCTION: document-src
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: 'Install ruby'
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+      - name: 'Install git-pr-release gem'
+        run: |
+          gem install --no-document git-pr-release -v "${{ env.GIT_PR_RELEASE_VERSION }}"
+      - name: 'Create pull request'
+        env:
+          GIT_PR_RELEASE_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_PR_RELEASE_TEMPLATE: .github/git-pr-release-template.erb
+        run: |
+          git-pr-release
