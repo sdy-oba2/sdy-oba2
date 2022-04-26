@@ -1,7 +1,8 @@
 name: 'git-pr-release'
 on:
   push:
-    branches: main
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
@@ -11,6 +12,7 @@ jobs:
     env:
       RUBY_VERSION: 2.7.x
       GIT_PR_RELEASE_VERSION: 1.4.0
+      GIT_PR_RELEASE_BRANCH_STAGING: main
       GIT_PR_RELEASE_BRANCH_PRODUCTION: document-src
     steps:
       - name: 'Checkout'
