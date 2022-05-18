@@ -1,0 +1,19 @@
+{
+  "name": "sdy-oba2",
+  "version": "1.0.0",
+  "description": "docusaurus test",
+  "main": "index.js",
+  "repository": "git@github.com:sdy-oba2/sdy-oba2.git",
+  "author": "s-hayashi <s-hayashi@creationline.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start-doc": "cd docusaurus && yarn start",
+    "start-supernova": "cd supernova && yarn start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "cd docusaurus && yarn deploy"
+  },
+  "workspaces": [
+    "./*"
+  ]
+}

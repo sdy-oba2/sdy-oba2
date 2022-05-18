@@ -1,47 +1,61 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Setup Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Install Nodejs:
 
-## Getting Started
+Select the operating system on which you are installing Nodejs: [ Install | Nodejs](https://nodejs.org/en/download/)
 
-Get started by **creating a new site**.
+## Editor:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Visual Studio Code
+Install [Visual Studio Code](https://code.visualstudio.com/), latest stable version.
 
-### What you'll need
+## Setting up the development environment:
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Selecting available environment:
 
-## Generate a new site
+- Install [macOS](/setup/macOS)
+- Install [Window](/setup/window)
+- Install [Linux](/setup/linux)
 
-Generate a new Docusaurus site using the **classic template**.
+Or following this link to setup the development environment for ios/android device [Setup environment](https://reactnative.dev/docs/environment-setup)
 
-The classic template will automatically be added to your project after you run the command:
+## Run App:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Step 1: Download/ Clone source code
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Step 2: Open source in VS code
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+Step 3: In terminal: Run
 
 ```bash
-cd my-website
-npm run start
+npm install && npx pod-install
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+to install libraries and packages.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+Step 4: In terminal: Run
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+```bash
+npx react-native start
+```
+
+to start Metro (inside your React Native project folder),
+
+Step 4: In terminal: Continue run
+
+```bash
+npm run ios
+```
+
+to build and run app in `ios device` or run
+
+```bash
+npm run android
+```
+
+to in `android device`,
