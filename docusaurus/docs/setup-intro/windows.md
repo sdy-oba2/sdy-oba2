@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-slug: /setup/window
+slug: /setup/windows
 ---
 
-# Window
+# Windows
 
 References: [Setup environment](https://reactnative.dev/docs/environment-setup)
 

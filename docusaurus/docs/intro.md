@@ -18,9 +18,9 @@ Install [Visual Studio Code](https://code.visualstudio.com/), latest stable vers
 
 Selecting available environment:
 
-- Install [macOS](/setup/macOS)
-- Install [Window](/setup/window)
-- Install [Linux](/setup/linux)
+- Install [macOS](/docs/setup/macOS)
+- Install [Windows](/docs/setup/windows)
+- Install [Linux](/docs/setup/linux)
 
 Or following this link to setup the development environment for ios/android device [Setup environment](https://reactnative.dev/docs/environment-setup)
 
