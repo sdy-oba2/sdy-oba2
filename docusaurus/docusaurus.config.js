@@ -10,7 +10,7 @@ const config = {
   tagline: 'oba2',
   url: 'https://sdy-oba2.github.io/',
   baseUrl: '/sdy-oba2/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'CreationLine', // Usually your GitHub org/user name.
