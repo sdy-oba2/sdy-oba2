@@ -1,10 +1,10 @@
-import fs from 'fs';
-import path from 'path';
-import { patternProperties, patternTitle } from "../templates";
+const fs = require('fs');
+const path = require('path');
+const { patternProperties, patternTitle } = require('../templates');
 
 const docgen = require("react-docgen-typescript");
 
-export const handleMd = (item) => {
+module.exports.handleMd = (item) => {
   const data = docgen.parse(`${process.env.COMPONENT_PATH}/${item}`, {
     savePropValueAsString: true
   })
@@ -18,7 +18,7 @@ export const handleMd = (item) => {
   fs.writeFileSync(`${process.env.DOCUSAURUS_PATH}/${data[0].displayName}.md`, content)
 }
 
-export const scanComponent = () => {
+module.exports.scanComponent = () => {
   console.log('scanComponent:')
   const files = fs.readdirSync(process.env.COMPONENT_PATH)
 

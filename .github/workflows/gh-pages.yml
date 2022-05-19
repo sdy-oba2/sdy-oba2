@@ -19,8 +19,8 @@ jobs:
           node-version: '14'
       - name: Test Build
         env:
-          COMPONENT_PATH: docusaurus/docs/components
-          DOCUSAURUS_PATH: docusaurus
+          COMPONENT_PATH: ../docusaurus/docs/components
+          DOCUSAURUS_PATH: ../docusaurus
           SUPERNOVA_PATH: supernova
         run: |
           if [ -e yarn.lock ]; then
@@ -30,6 +30,8 @@ jobs:
           else
             npm i
           fi
+          cd docusaurus && yarn install && cd ../
+          cd supernova && yarn install && cd ../
           yarn gen-md
           yarn build
   deploy:
@@ -48,6 +50,9 @@ jobs:
           USE_SSH: true
           GIT_USER: git
           CURRENT_BRANCH: document-src
+          COMPONENT_PATH: ../docusaurus/docs/components
+          DOCUSAURUS_PATH: ../docusaurus
+          SUPERNOVA_PATH: supernova
         run: |
           git config --global user.email "s-hayashi@creationline.com"
           git config --global user.name "CreationLine"
@@ -58,5 +63,7 @@ jobs:
           else
             npm i
           fi
+          cd docusaurus && yarn install && cd ../
+          cd supernova && yarn install && cd ../
           yarn gen-md
           yarn deploy
