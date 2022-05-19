@@ -18,6 +18,10 @@ jobs:
         with:
           node-version: '14'
       - name: Test Build
+        env:
+          COMPONENT_PATH: docusaurus/docs/components
+          DOCUSAURUS_PATH: docusaurus
+          SUPERNOVA_PATH: supernova
         run: |
           if [ -e yarn.lock ]; then
             yarn install --frozen-lockfile
@@ -26,6 +30,7 @@ jobs:
           else
             npm i
           fi
+          yarn gen-md
           yarn build
   deploy:
     if: github.event_name != 'pull_request'
@@ -53,4 +58,5 @@ jobs:
           else
             npm i
           fi
+          yarn gen-md
           yarn deploy
