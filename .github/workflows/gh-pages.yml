@@ -3,10 +3,10 @@ name: GitHub Pages
 on:
   pull_request:
     branches:
-      - document-src
+      - gh-pages
   push:
     branches:
-      - document-src
+      - gh-pages
 
 jobs:
   checks:
@@ -49,7 +49,7 @@ jobs:
         env:
           USE_SSH: true
           GIT_USER: git
-          CURRENT_BRANCH: document-src
+          CURRENT_BRANCH: gh-pages
           COMPONENT_PATH: ../docusaurus/docs/components
           DOCUSAURUS_PATH: ../docusaurus
           SUPERNOVA_PATH: supernova
