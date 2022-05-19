@@ -10,11 +10,11 @@ const config = {
   tagline: 'oba2',
   url: 'https://sdy-oba2.github.io/',
   baseUrl: '/sdy-oba2/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'CreationLine', // Usually your GitHub org/user name.
-  projectName: 'One Button Application2', // Usually your repo name.
+  organizationName: 'sdy-oba2', // Usually your GitHub org/user name.
+  projectName: 'sdy-oba2', // Usually your repo name.
 
   presets: [
     [
