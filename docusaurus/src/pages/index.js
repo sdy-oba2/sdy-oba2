@@ -10,13 +10,19 @@ export default function Home() {
 
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={siteConfig.title}
       description="Description will go into a meta tag in <head />">
-      <main>
+      <main className={styles.container}>
+        <div className={styles.title}>
+          One Button Application2
+          <div className={styles.subTitle}>
+            Technical documents
+          </div>
+        </div>
         <div className={styles.buttons}>
           <Link
             className="button button--primary button--lg"
-            to="/docs/intro">Getting started</Link>
+            to="/docs/">Getting started</Link>
         </div>
       </main>
     </Layout>
