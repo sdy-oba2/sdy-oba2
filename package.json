@@ -12,9 +12,9 @@
     "start-doc": "yarn workspace @yds/docs start",
     "start-supernova": "yarn workspace @yds/parser start",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gen-md": "cd supernova && yarn start",
-    "build": "cd docusaurus && yarn build",
-    "deploy": "cd docusaurus && yarn deploy"
+    "gen-md": "cd packages/supernova && yarn start",
+    "build": "cd packages/docusaurus && yarn build",
+    "deploy": "cd packages/docusaurus && yarn deploy"
   },
   "workspaces": [
     "packages/*"
