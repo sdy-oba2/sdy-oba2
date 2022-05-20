@@ -19,13 +19,14 @@ jobs:
           node-version: '14'
       - name: Test Build
         env:
-          COMPONENT_PATH: ../docusaurus/docs/components
-          DOCUSAURUS_PATH: ../docusaurus
-          OBA_PATH: supernova/data
+          DOCUSAURUS_PATH: ../docusaurus/docs
+          OBA_PATH: ../ui/src
         run: |
           yarn install --frozen-lockfile
           cd docusaurus && yarn install --frozen-lockfile && cd ../
           cd supernova && yarn install --frozen-lockfile && cd ../
+          cd ui && yarn install --frozen-lockfile && cd ../
+          yarn build-ui
           yarn gen-md
           yarn build
   deploy:
@@ -44,14 +45,15 @@ jobs:
           USE_SSH: true
           GIT_USER: git
           CURRENT_BRANCH: document-src
-          COMPONENT_PATH: ../docusaurus/docs/components
-          DOCUSAURUS_PATH: ../docusaurus
-          OBA_PATH: supernova/data
+          DOCUSAURUS_PATH: ../docusaurus/docs
+          OBA_PATH: ../ui/src
         run: |
           git config --global user.email "s-hayashi@creationline.com"
           git config --global user.name "CreationLine"
           yarn install --frozen-lockfile
           cd docusaurus && yarn install --frozen-lockfile && cd ../
           cd supernova && yarn install --frozen-lockfile && cd ../
+          cd ui && yarn install --frozen-lockfile && cd ../
+          yarn build-ui
           yarn gen-md
           yarn deploy

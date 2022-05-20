@@ -1,0 +1,39 @@
+---
+title: Button
+
+---
+
+
+## Component description
+
+## Examples
+
+```
+import { Button } from '@yds/ui';
+
+<Button text="Button" />
+<Button text="Button" disabled />
+<Button variant="Outlined" text="Outlined Button" />
+<Button variant="Outlined" text="Outlined" disabled />
+```
+
+
+
+
+## Stories
+
+import Instance from '@yds/ui/dist/components/button/composition';
+
+<Instance />
+
+
+## Props of component
+
+| Name               | Type                                | Default value | Description              |
+| ------------------ | ----------------------------------- | ------------- | ------------------------ |
+| text| string| | Text to display in button|
+| disabled| boolean| | Prevent click to button|
+| textStyle| TextStyle| | Style of text in button|
+| style| ViewStyle| | Style of the button|
+| shadow| boolean| | Enable shadow button or not|
+| variant| "Filled"  "Outlined"| | Type of button|
