@@ -1,8 +1,9 @@
 {
-  "name": "suppernova",
+  "name": "@yds/parser",
   "version": "1.0.0",
   "description": "",
   "main": "dist",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "watch": "babel -w src/ -d dist/",

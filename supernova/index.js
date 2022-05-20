@@ -1,6 +1,6 @@
-const { scanComponent } = require('./src/handleMd');
+import { scanComponent } from "./src/handleMd.js";
+import dotenv from 'dotenv';
 
-require('dotenv').config();
-require('@babel/register')();
+dotenv.config();
 
 scanComponent();

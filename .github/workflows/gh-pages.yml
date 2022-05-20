@@ -21,7 +21,7 @@ jobs:
         env:
           COMPONENT_PATH: ../docusaurus/docs/components
           DOCUSAURUS_PATH: ../docusaurus
-          SUPERNOVA_PATH: supernova
+          OBA_PATH: supernova/data
         run: |
           yarn install --frozen-lockfile
           cd docusaurus && yarn install --frozen-lockfile && cd ../
@@ -46,7 +46,7 @@ jobs:
           CURRENT_BRANCH: document-src
           COMPONENT_PATH: ../docusaurus/docs/components
           DOCUSAURUS_PATH: ../docusaurus
-          SUPERNOVA_PATH: supernova
+          OBA_PATH: supernova/data
         run: |
           git config --global user.email "s-hayashi@creationline.com"
           git config --global user.name "CreationLine"
