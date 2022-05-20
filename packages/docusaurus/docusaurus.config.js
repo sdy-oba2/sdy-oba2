@@ -72,6 +72,10 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    plugins: [
+      'docusaurus-plugin-react-native-web',
+      './plugins/docusaurus-plugin-react-native-svg-web.js'
+    ]
 };
 
 module.exports = config;
