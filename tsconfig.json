@@ -1,0 +1,35 @@
+{
+  "Display": "React Native Elements",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@yds/*": ["./packages/*/src"],
+    },
+    "removeComments": true,
+    "composite": true,
+    "declaration": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["esnext", "dom"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noStrictGenericChecks": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "ES6",
+    "allowJs": true
+  },
+  "exclude": [
+    "node_modules",
+    "website",
+    "example",
+    "coverage",
+    "packages/*/src/**/__tests__"
+  ]
+}

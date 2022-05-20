@@ -17,6 +17,6 @@
     "deploy": "cd docusaurus && yarn deploy"
   },
   "workspaces": [
-    "./*"
+    "packages/*"
   ]
 }

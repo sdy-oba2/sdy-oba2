@@ -23,9 +23,9 @@ jobs:
           OBA_PATH: ../ui/src
         run: |
           yarn install --frozen-lockfile
-          cd docusaurus && yarn install --frozen-lockfile && cd ../
-          cd supernova && yarn install --frozen-lockfile && cd ../
-          cd ui && yarn install --frozen-lockfile && cd ../
+          cd packages/docusaurus && yarn install --frozen-lockfile && cd ../../
+          cd packages/supernova && yarn install --frozen-lockfile && cd ../../
+          cd packages/ui && yarn install --frozen-lockfile && cd ../../
           yarn build-ui
           yarn gen-md
           yarn build
@@ -51,9 +51,9 @@ jobs:
           git config --global user.email "s-hayashi@creationline.com"
           git config --global user.name "CreationLine"
           yarn install --frozen-lockfile
-          cd docusaurus && yarn install --frozen-lockfile && cd ../
-          cd supernova && yarn install --frozen-lockfile && cd ../
-          cd ui && yarn install --frozen-lockfile && cd ../
+          cd packages/docusaurus && yarn install --frozen-lockfile && cd ../../
+          cd packages/supernova && yarn install --frozen-lockfile && cd ../../
+          cd packages/ui && yarn install --frozen-lockfile && cd ../../
           yarn build-ui
           yarn gen-md
           yarn deploy
