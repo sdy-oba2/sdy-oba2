@@ -2,7 +2,12 @@ type ColorHex = `#${string}`;
 type ColorRGBA = `rgba(${string})`;
 type ColorURL = `url(#${string})`;
 export declare type ColorRGB = `rgb(${string})`;
-export declare type ColorFormat = ColorHex | ColorRGB | ColorRGBA | ColorURL | string;
+export declare type ColorFormat =
+  | ColorHex
+  | ColorRGB
+  | ColorRGBA
+  | ColorURL
+  | string;
 
 export type TimeProps = {
   remainingTime: number;

@@ -27,7 +27,10 @@ const getRGB = (color: string) =>
     .match(/.{2}/g)
     ?.map(x => parseInt(x, 16)) ?? [];
 
-const getStroke = (props: TimerProps, remainingTime: number): ColorFormat | string => {
+const getStroke = (
+  props: TimerProps,
+  remainingTime: number,
+): ColorFormat | string => {
   const {colors, colorsTime, isSmoothColorTransition = true} = props;
   if (typeof colors === 'string') {
     return colors;

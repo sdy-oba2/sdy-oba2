@@ -1,4 +1,4 @@
-import { Theme } from '../../token/theme';
+import {Theme} from '../../token/theme';
 
 export const Style = {
   Button: {
