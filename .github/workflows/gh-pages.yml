@@ -23,15 +23,9 @@ jobs:
           DOCUSAURUS_PATH: ../docusaurus
           SUPERNOVA_PATH: supernova
         run: |
-          if [ -e yarn.lock ]; then
-            yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-            npm ci
-          else
-            npm i
-          fi
-          cd docusaurus && yarn install && cd ../
-          cd supernova && yarn install && cd ../
+          yarn install --frozen-lockfile
+          cd docusaurus && yarn install --frozen-lockfile && cd ../
+          cd supernova && yarn install --frozen-lockfile && cd ../
           yarn gen-md
           yarn build
   deploy:
@@ -56,14 +50,8 @@ jobs:
         run: |
           git config --global user.email "s-hayashi@creationline.com"
           git config --global user.name "CreationLine"
-          if [ -e yarn.lock ]; then
-            yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-            npm ci
-          else
-            npm i
-          fi
-          cd docusaurus && yarn install && cd ../
-          cd supernova && yarn install && cd ../
+          yarn install --frozen-lockfile
+          cd docusaurus && yarn install --frozen-lockfile && cd ../
+          cd supernova && yarn install --frozen-lockfile && cd ../
           yarn gen-md
           yarn deploy
