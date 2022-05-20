@@ -1,4 +1,8 @@
-import {Colors} from './colors';
-import {Measures} from './measures';
 
-export const Gradients = {};
+import { Colors } from './colors';
+import { Measures } from './measures';
+
+
+
+export const Gradients = {
+}
