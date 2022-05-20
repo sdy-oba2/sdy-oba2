@@ -38,10 +38,6 @@ const config = {
     ({
       navbar: {
         title: 'One Button Application2',
-        logo: {
-          alt: 'One Button Application2',
-          src: 'img/logo.svg',
-        },
         items: [
           {
             type: 'doc',
