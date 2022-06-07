@@ -1,0 +1,22 @@
+{
+  "radius": {
+    "border-radius-large": {
+      "value": {
+        "radius": {
+          "type": "measure",
+          "value": {
+            "measure": {
+              "type": "size",
+              "value": 24
+            },
+            "unit": {
+              "type": "string",
+              "value": "pixels"
+            }
+          }
+        }
+      },
+      "type": "radius"
+    }
+  }
+}
