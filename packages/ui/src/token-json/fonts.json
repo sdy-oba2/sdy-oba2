@@ -1,0 +1,162 @@
+{
+  "font": {
+    "global": {
+      "font-secondary-400": {
+        "value": {
+          "family": {
+            "type": "string",
+            "value": "Roboto"
+          },
+          "subfamily": {
+            "type": "string",
+            "value": "regular"
+          }
+        },
+        "type": "font"
+      },
+      "font-secondary-300": {
+        "value": {
+          "family": {
+            "type": "string",
+            "value": "Roboto"
+          },
+          "subfamily": {
+            "type": "string",
+            "value": "300"
+          }
+        },
+        "type": "font"
+      },
+      "font-secondary-100": {
+        "value": {
+          "family": {
+            "type": "string",
+            "value": "Roboto"
+          },
+          "subfamily": {
+            "type": "string",
+            "value": "100"
+          }
+        },
+        "type": "font"
+      },
+      "font-secondary-500": {
+        "value": {
+          "family": {
+            "type": "string",
+            "value": "Roboto"
+          },
+          "subfamily": {
+            "type": "string",
+            "value": "500"
+          }
+        },
+        "type": "font"
+      },
+      "font-secondary-700": {
+        "value": {
+          "family": {
+            "type": "string",
+            "value": "Roboto"
+          },
+          "subfamily": {
+            "type": "string",
+            "value": "700"
+          }
+        },
+        "type": "font"
+      },
+      "font-secondary-900": {
+        "value": {
+          "family": {
+            "type": "string",
+            "value": "Roboto"
+          },
+          "subfamily": {
+            "type": "string",
+            "value": "900"
+          }
+        },
+        "type": "font"
+      },
+      "font-primary-400": {
+        "value": {
+          "family": {
+            "type": "string",
+            "value": "Noto Sans JP"
+          },
+          "subfamily": {
+            "type": "string",
+            "value": "regular"
+          }
+        },
+        "type": "font"
+      },
+      "font-primary-300": {
+        "value": {
+          "family": {
+            "type": "string",
+            "value": "Noto Sans JP"
+          },
+          "subfamily": {
+            "type": "string",
+            "value": "300"
+          }
+        },
+        "type": "font"
+      },
+      "font-primary-100": {
+        "value": {
+          "family": {
+            "type": "string",
+            "value": "Noto Sans JP"
+          },
+          "subfamily": {
+            "type": "string",
+            "value": "100"
+          }
+        },
+        "type": "font"
+      },
+      "font-primary-500": {
+        "value": {
+          "family": {
+            "type": "string",
+            "value": "Noto Sans JP"
+          },
+          "subfamily": {
+            "type": "string",
+            "value": "500"
+          }
+        },
+        "type": "font"
+      },
+      "font-primary-700": {
+        "value": {
+          "family": {
+            "type": "string",
+            "value": "Noto Sans JP"
+          },
+          "subfamily": {
+            "type": "string",
+            "value": "700"
+          }
+        },
+        "type": "font"
+      },
+      "font-primary-900": {
+        "value": {
+          "family": {
+            "type": "string",
+            "value": "Noto Sans JP"
+          },
+          "subfamily": {
+            "type": "string",
+            "value": "900"
+          }
+        },
+        "type": "font"
+      }
+    }
+  }
+}
