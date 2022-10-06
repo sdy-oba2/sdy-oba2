@@ -1,0 +1,719 @@
+{
+  "color": {
+    "alias": {
+      "dark-semantic-palette": {
+        "error": {
+          "value": "#fe5971ff",
+          "type": "color"
+        },
+        "on-error": {
+          "value": "#000000ff",
+          "type": "color"
+        },
+        "error-container": {
+          "value": "#7e0011ff",
+          "type": "color"
+        },
+        "on-error-container": {
+          "value": "#ffd2d8ff",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.global.dark-palette.green.700.value}",
+          "type": "color"
+        },
+        "on-success": {
+          "value": "{color.global.dark-palette.green.50.value}",
+          "type": "color"
+        },
+        "success-container": {
+          "value": "{color.global.dark-palette.green.100.value}",
+          "type": "color"
+        },
+        "on-success-container": {
+          "value": "{color.global.dark-palette.green.900.value}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.global.dark-palette.orange.700.value}",
+          "type": "color"
+        },
+        "on-warning": {
+          "value": "{color.global.dark-palette.orange.50.value}",
+          "type": "color"
+        },
+        "warning-container": {
+          "value": "{color.global.dark-palette.orange.100.value}",
+          "type": "color"
+        },
+        "on-warning-container": {
+          "value": "{color.global.dark-palette.orange.900.value}",
+          "type": "color"
+        }
+      },
+      "light-semantic-palette": {
+        "error": {
+          "value": "#fe1c3bff",
+          "type": "color"
+        },
+        "on-error": {
+          "value": "#ffffffff",
+          "type": "color"
+        },
+        "error-container": {
+          "value": "#ffd2d8ff",
+          "type": "color"
+        },
+        "on-error-container": {
+          "value": "#400009ff",
+          "type": "color"
+        },
+        "success": {
+          "value": "{color.global.light-palette.green.500.value}",
+          "type": "color"
+        },
+        "on-success": {
+          "value": "{color.global.light-palette.green.50.value}",
+          "type": "color"
+        },
+        "success-container": {
+          "value": "{color.global.light-palette.green.100.value}",
+          "type": "color"
+        },
+        "on-success-container": {
+          "value": "{color.global.light-palette.green.900.value}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{color.global.dark-palette.orange.500.value}",
+          "type": "color"
+        },
+        "on-warning": {
+          "value": "{color.global.light-palette.orange.50.value}",
+          "type": "color"
+        },
+        "warning-container": {
+          "value": "{color.global.light-palette.orange.100.value}",
+          "type": "color"
+        },
+        "on-warning-container": {
+          "value": "{color.global.light-palette.orange.900.value}",
+          "type": "color"
+        }
+      },
+      "dark-background-palette": {
+        "primary": {
+          "value": "{color.global.dark-palette.gray.50.value}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.global.dark-palette.gray.200.value}",
+          "type": "color"
+        }
+      },
+      "light-background-palette": {
+        "primary": {
+          "value": "{color.global.light-palette.gray.50.value}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.global.light-palette.gray.75.value}",
+          "type": "color"
+        }
+      },
+      "dark-content-palette": {
+        "primary": {
+          "value": "{color.global.dark-palette.gray.900.value}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.global.dark-palette.gray.500.value}",
+          "type": "color"
+        }
+      },
+      "light-content-palette": {
+        "primary": {
+          "value": "{color.global.light-palette.gray.900.value}",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "{color.global.light-palette.gray.500.value}",
+          "type": "color"
+        }
+      },
+      "dark-cta-background-palette": {
+        "active": {
+          "value": "{color.global.static-palette.brand.primary.value}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.global.dark-palette.gray.200.value}",
+          "type": "color"
+        }
+      },
+      "light-cta-background-palette": {
+        "active": {
+          "value": "{color.global.static-palette.brand.primary.value}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.global.light-palette.gray.200.value}",
+          "type": "color"
+        }
+      },
+      "dark-cta-content-palette": {
+        "active": {
+          "value": "{color.global.static-palette.static.white.value}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.global.dark-palette.gray.500.value}",
+          "type": "color"
+        }
+      },
+      "light-cta-content-palette": {
+        "active": {
+          "value": "{color.global.static-palette.static.white.value}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{color.global.light-palette.gray.500.value}",
+          "type": "color"
+        }
+      }
+    },
+    "global": {
+      "dark-palette": {
+        "gray": {
+          "50": {
+            "value": "#1c1d20ff",
+            "type": "color",
+            "comment": "globalDarkPaletteGray50"
+          },
+          "75": {
+            "value": "#232326ff",
+            "type": "color",
+            "comment": "globalDarkPaletteGray75"
+          },
+          "100": {
+            "value": "#2f2f32ff",
+            "type": "color",
+            "comment": "globalDarkPaletteGray100"
+          },
+          "200": {
+            "value": "#3b3b3fff",
+            "type": "color",
+            "comment": "globalDarkPaletteGray200"
+          },
+          "300": {
+            "value": "#46474bff",
+            "type": "color",
+            "comment": "globalDarkPaletteGray300"
+          },
+          "400": {
+            "value": "#525358ff",
+            "type": "color",
+            "comment": "globalDarkPaletteGray400"
+          },
+          "500": {
+            "value": "#75767dff",
+            "type": "color",
+            "comment": "globalDarkPaletteGray500"
+          },
+          "600": {
+            "value": "#919197ff",
+            "type": "color",
+            "comment": "globalDarkPaletteGray600"
+          },
+          "700": {
+            "value": "#acadb1ff",
+            "type": "color",
+            "comment": "globalDarkPaletteGray700"
+          },
+          "800": {
+            "value": "#c8c8cbff",
+            "type": "color",
+            "comment": "globalDarkPaletteGray800"
+          },
+          "900": {
+            "value": "#e3e4e5ff",
+            "type": "color",
+            "comment": "globalDarkPaletteGray900"
+          },
+          "1000": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalDarkPaletteGray1000"
+          }
+        },
+        "red": {
+          "50": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalDarkPaletteRed50"
+          },
+          "75": {
+            "value": "#43131aff",
+            "type": "color",
+            "comment": "globalDarkPaletteRed75"
+          },
+          "100": {
+            "value": "#520612ff",
+            "type": "color",
+            "comment": "globalDarkPaletteRed100"
+          },
+          "200": {
+            "value": "#670716ff",
+            "type": "color",
+            "comment": "globalDarkPaletteRed200"
+          },
+          "300": {
+            "value": "#7b091aff",
+            "type": "color",
+            "comment": "globalDarkPaletteRed300"
+          },
+          "400": {
+            "value": "#9a0b21ff",
+            "type": "color",
+            "comment": "globalDarkPaletteRed400"
+          },
+          "500": {
+            "value": "#1480e3ff",
+            "type": "color",
+            "comment": "globalDarkPaletteRed500"
+          },
+          "600": {
+            "value": "#d73f56ff",
+            "type": "color",
+            "comment": "globalDarkPaletteRed600"
+          },
+          "700": {
+            "value": "#e16f80ff",
+            "type": "color",
+            "comment": "globalDarkPaletteRed700"
+          },
+          "800": {
+            "value": "#eb9fabff",
+            "type": "color",
+            "comment": "globalDarkPaletteRed800"
+          },
+          "900": {
+            "value": "#f5cfd5ff",
+            "type": "color",
+            "comment": "globalDarkPaletteRed900"
+          },
+          "1000": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalDarkPaletteRed1000"
+          }
+        },
+        "green": {
+          "50": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalDarkPaletteGreen50"
+          },
+          "75": {
+            "value": "#152d13ff",
+            "type": "color",
+            "comment": "globalDarkPaletteGreen75"
+          },
+          "100": {
+            "value": "#22481eff",
+            "type": "color",
+            "comment": "globalDarkPaletteGreen100"
+          },
+          "200": {
+            "value": "#2b5a26ff",
+            "type": "color",
+            "comment": "globalDarkPaletteGreen200"
+          },
+          "300": {
+            "value": "#336c2eff",
+            "type": "color",
+            "comment": "globalDarkPaletteGreen300"
+          },
+          "400": {
+            "value": "#408739ff",
+            "type": "color",
+            "comment": "globalDarkPaletteGreen400"
+          },
+          "500": {
+            "value": "#55b44cff",
+            "type": "color",
+            "comment": "globalDarkPaletteGreen500"
+          },
+          "600": {
+            "value": "#77c370ff",
+            "type": "color",
+            "comment": "globalDarkPaletteGreen600"
+          },
+          "700": {
+            "value": "#99d294ff",
+            "type": "color",
+            "comment": "globalDarkPaletteGreen700"
+          },
+          "800": {
+            "value": "#bbe1b7ff",
+            "type": "color",
+            "comment": "globalDarkPaletteGreen800"
+          },
+          "900": {
+            "value": "#ddf0dbff",
+            "type": "color",
+            "comment": "globalDarkPaletteGreen900"
+          },
+          "1000": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalDarkPaletteGreen1000"
+          }
+        },
+        "orange": {
+          "50": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalDarkPaletteOrange50"
+          },
+          "75": {
+            "value": "#422008ff",
+            "type": "color",
+            "comment": "globalDarkPaletteOrange75"
+          },
+          "100": {
+            "value": "#6a330eff",
+            "type": "color",
+            "comment": "globalDarkPaletteOrange100"
+          },
+          "200": {
+            "value": "#833f11ff",
+            "type": "color",
+            "comment": "globalDarkPaletteOrange200"
+          },
+          "300": {
+            "value": "#9d4c15ff",
+            "type": "color",
+            "comment": "globalDarkPaletteOrange300"
+          },
+          "400": {
+            "value": "#bb6226ff",
+            "type": "color",
+            "comment": "globalDarkPaletteOrange400"
+          },
+          "500": {
+            "value": "#ec8643ff",
+            "type": "color",
+            "comment": "globalDarkPaletteOrange500"
+          },
+          "600": {
+            "value": "#f79d60ff",
+            "type": "color",
+            "comment": "globalDarkPaletteOrange600"
+          },
+          "700": {
+            "value": "#f9b587ff",
+            "type": "color",
+            "comment": "globalDarkPaletteOrange700"
+          },
+          "800": {
+            "value": "#fbceb0ff",
+            "type": "color",
+            "comment": "globalDarkPaletteOrange800"
+          },
+          "900": {
+            "value": "#fde6d7ff",
+            "type": "color",
+            "comment": "globalDarkPaletteOrange900"
+          },
+          "1000": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalDarkPaletteOrange1000"
+          }
+        }
+      },
+      "light-palette": {
+        "gray": {
+          "50": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalLightPaletteGray50"
+          },
+          "75": {
+            "value": "#f7f8fcff",
+            "type": "color",
+            "comment": "globalLightPaletteGray75"
+          },
+          "100": {
+            "value": "#f0f1f9ff",
+            "type": "color",
+            "comment": "globalLightPaletteGray100"
+          },
+          "200": {
+            "value": "#e2e3ebff",
+            "type": "color",
+            "comment": "globalLightPaletteGray200"
+          },
+          "300": {
+            "value": "#c5c6ceff",
+            "type": "color",
+            "comment": "globalLightPaletteGray300"
+          },
+          "400": {
+            "value": "#aaabb3ff",
+            "type": "color",
+            "comment": "globalLightPaletteGray400"
+          },
+          "500": {
+            "value": "#898e97ff",
+            "type": "color",
+            "comment": "globalLightPaletteGray500"
+          },
+          "600": {
+            "value": "#75767dff",
+            "type": "color",
+            "comment": "globalLightPaletteGray600"
+          },
+          "700": {
+            "value": "#585a60ff",
+            "type": "color",
+            "comment": "globalLightPaletteGray700"
+          },
+          "800": {
+            "value": "#3c3c42ff",
+            "type": "color",
+            "comment": "globalLightPaletteGray800"
+          },
+          "900": {
+            "value": "#1c1d20ff",
+            "type": "color",
+            "comment": "globalLightPaletteGray900"
+          },
+          "1000": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalLightPaletteGray1000"
+          }
+        },
+        "green": {
+          "50": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen50"
+          },
+          "75": {
+            "value": "#e9fbe7ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen75"
+          },
+          "100": {
+            "value": "#c4fbc0ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen100"
+          },
+          "200": {
+            "value": "#96ee8eff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen200"
+          },
+          "300": {
+            "value": "#73d86bff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen300"
+          },
+          "400": {
+            "value": "#51c247ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen400"
+          },
+          "500": {
+            "value": "#2fad24ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen500"
+          },
+          "600": {
+            "value": "#1e8f14ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen600"
+          },
+          "700": {
+            "value": "#136f0bff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen700"
+          },
+          "800": {
+            "value": "#0d4a07ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen800"
+          },
+          "900": {
+            "value": "#032700ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen900"
+          },
+          "1000": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen1000"
+          }
+        },
+        "red": {
+          "50": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalLightPaletteRed50"
+          },
+          "75": {
+            "value": "#fff2f4ff",
+            "type": "color",
+            "comment": "globalLightPaletteRed75"
+          },
+          "100": {
+            "value": "#ffcbd3ff",
+            "type": "color",
+            "comment": "globalLightPaletteRed100"
+          },
+          "200": {
+            "value": "#ff98a7ff",
+            "type": "color",
+            "comment": "globalLightPaletteRed200"
+          },
+          "300": {
+            "value": "#ff657cff",
+            "type": "color",
+            "comment": "globalLightPaletteRed300"
+          },
+          "400": {
+            "value": "#fb3351ff",
+            "type": "color",
+            "comment": "globalLightPaletteRed400"
+          },
+          "500": {
+            "value": "#d8102eff",
+            "type": "color",
+            "comment": "globalLightPaletteRed500"
+          },
+          "600": {
+            "value": "#c8001eff",
+            "type": "color",
+            "comment": "globalLightPaletteRed600"
+          },
+          "700": {
+            "value": "#980017ff",
+            "type": "color",
+            "comment": "globalLightPaletteRed700"
+          },
+          "800": {
+            "value": "#63000fff",
+            "type": "color",
+            "comment": "globalLightPaletteRed800"
+          },
+          "900": {
+            "value": "#310007ff",
+            "type": "color",
+            "comment": "globalLightPaletteRed900"
+          },
+          "1000": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalLightPaletteRed1000"
+          }
+        },
+        "orange": {
+          "50": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange50"
+          },
+          "75": {
+            "value": "#fff2e9ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange75"
+          },
+          "100": {
+            "value": "#ffdfcbff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange100"
+          },
+          "200": {
+            "value": "#ffbf94ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange200"
+          },
+          "300": {
+            "value": "#ff9f60ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange300"
+          },
+          "400": {
+            "value": "#ff7e2aff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange400"
+          },
+          "500": {
+            "value": "#f36203ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange500"
+          },
+          "600": {
+            "value": "#c44d00ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange600"
+          },
+          "700": {
+            "value": "#943a00ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange700"
+          },
+          "800": {
+            "value": "#622700ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange800"
+          },
+          "900": {
+            "value": "#321400ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange900"
+          },
+          "1000": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange1000"
+          }
+        }
+      },
+      "static-palette": {
+        "brand": {
+          "primary": {
+            "value": "#d8102eff",
+            "type": "color",
+            "comment": "globalStaticPaletteBrandPrimary"
+          },
+          "secondary": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalStaticPaletteBrandSecondary"
+          },
+          "tertiary": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalStaticPaletteBrandTertiary"
+          }
+        },
+        "static": {
+          "black": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalStaticPaletteStaticBlack"
+          },
+          "white": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalStaticPaletteStaticWhite"
+          }
+        }
+      }
+    }
+  }
+}
