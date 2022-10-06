@@ -183,256 +183,6 @@
       }
     },
     "global": {
-      "light-palette": {
-        "gray": {
-          "50": {
-            "value": "#ffffffff",
-            "type": "color",
-            "comment": "globalLightPaletteGray50"
-          },
-          "75": {
-            "value": "#f7f8fcff",
-            "type": "color",
-            "comment": "globalLightPaletteGray75"
-          },
-          "100": {
-            "value": "#f0f1f9ff",
-            "type": "color",
-            "comment": "globalLightPaletteGray100"
-          },
-          "200": {
-            "value": "#e2e3ebff",
-            "type": "color",
-            "comment": "globalLightPaletteGray200"
-          },
-          "300": {
-            "value": "#c5c6ceff",
-            "type": "color",
-            "comment": "globalLightPaletteGray300"
-          },
-          "400": {
-            "value": "#aaabb3ff",
-            "type": "color",
-            "comment": "globalLightPaletteGray400"
-          },
-          "500": {
-            "value": "#898e97ff",
-            "type": "color",
-            "comment": "globalLightPaletteGray500"
-          },
-          "600": {
-            "value": "#75767dff",
-            "type": "color",
-            "comment": "globalLightPaletteGray600"
-          },
-          "700": {
-            "value": "#585a60ff",
-            "type": "color",
-            "comment": "globalLightPaletteGray700"
-          },
-          "800": {
-            "value": "#3c3c42ff",
-            "type": "color",
-            "comment": "globalLightPaletteGray800"
-          },
-          "900": {
-            "value": "#1c1d20ff",
-            "type": "color",
-            "comment": "globalLightPaletteGray900"
-          },
-          "1000": {
-            "value": "#000000ff",
-            "type": "color",
-            "comment": "globalLightPaletteGray1000"
-          }
-        },
-        "green": {
-          "50": {
-            "value": "#ffffffff",
-            "type": "color",
-            "comment": "globalLightPaletteGreen50"
-          },
-          "75": {
-            "value": "#e9fbe7ff",
-            "type": "color",
-            "comment": "globalLightPaletteGreen75"
-          },
-          "100": {
-            "value": "#c4fbc0ff",
-            "type": "color",
-            "comment": "globalLightPaletteGreen100"
-          },
-          "200": {
-            "value": "#96ee8eff",
-            "type": "color",
-            "comment": "globalLightPaletteGreen200"
-          },
-          "300": {
-            "value": "#73d86bff",
-            "type": "color",
-            "comment": "globalLightPaletteGreen300"
-          },
-          "400": {
-            "value": "#51c247ff",
-            "type": "color",
-            "comment": "globalLightPaletteGreen400"
-          },
-          "500": {
-            "value": "#2fad24ff",
-            "type": "color",
-            "comment": "globalLightPaletteGreen500"
-          },
-          "600": {
-            "value": "#1e8f14ff",
-            "type": "color",
-            "comment": "globalLightPaletteGreen600"
-          },
-          "700": {
-            "value": "#136f0bff",
-            "type": "color",
-            "comment": "globalLightPaletteGreen700"
-          },
-          "800": {
-            "value": "#0d4a07ff",
-            "type": "color",
-            "comment": "globalLightPaletteGreen800"
-          },
-          "900": {
-            "value": "#032700ff",
-            "type": "color",
-            "comment": "globalLightPaletteGreen900"
-          },
-          "1000": {
-            "value": "#000000ff",
-            "type": "color",
-            "comment": "globalLightPaletteGreen1000"
-          }
-        },
-        "red": {
-          "50": {
-            "value": "#ffffffff",
-            "type": "color",
-            "comment": "globalLightPaletteRed50"
-          },
-          "75": {
-            "value": "#fff2f4ff",
-            "type": "color",
-            "comment": "globalLightPaletteRed75"
-          },
-          "100": {
-            "value": "#ffcbd3ff",
-            "type": "color",
-            "comment": "globalLightPaletteRed100"
-          },
-          "200": {
-            "value": "#ff98a7ff",
-            "type": "color",
-            "comment": "globalLightPaletteRed200"
-          },
-          "300": {
-            "value": "#ff657cff",
-            "type": "color",
-            "comment": "globalLightPaletteRed300"
-          },
-          "400": {
-            "value": "#fb3351ff",
-            "type": "color",
-            "comment": "globalLightPaletteRed400"
-          },
-          "500": {
-            "value": "#d8102eff",
-            "type": "color",
-            "comment": "globalLightPaletteRed500"
-          },
-          "600": {
-            "value": "#c8001eff",
-            "type": "color",
-            "comment": "globalLightPaletteRed600"
-          },
-          "700": {
-            "value": "#980017ff",
-            "type": "color",
-            "comment": "globalLightPaletteRed700"
-          },
-          "800": {
-            "value": "#63000fff",
-            "type": "color",
-            "comment": "globalLightPaletteRed800"
-          },
-          "900": {
-            "value": "#310007ff",
-            "type": "color",
-            "comment": "globalLightPaletteRed900"
-          },
-          "1000": {
-            "value": "#000000ff",
-            "type": "color",
-            "comment": "globalLightPaletteRed1000"
-          }
-        },
-        "orange": {
-          "50": {
-            "value": "#ffffffff",
-            "type": "color",
-            "comment": "globalLightPaletteOrange50"
-          },
-          "75": {
-            "value": "#fff2e9ff",
-            "type": "color",
-            "comment": "globalLightPaletteOrange75"
-          },
-          "100": {
-            "value": "#ffdfcbff",
-            "type": "color",
-            "comment": "globalLightPaletteOrange100"
-          },
-          "200": {
-            "value": "#ffbf94ff",
-            "type": "color",
-            "comment": "globalLightPaletteOrange200"
-          },
-          "300": {
-            "value": "#ff9f60ff",
-            "type": "color",
-            "comment": "globalLightPaletteOrange300"
-          },
-          "400": {
-            "value": "#ff7e2aff",
-            "type": "color",
-            "comment": "globalLightPaletteOrange400"
-          },
-          "500": {
-            "value": "#f36203ff",
-            "type": "color",
-            "comment": "globalLightPaletteOrange500"
-          },
-          "600": {
-            "value": "#c44d00ff",
-            "type": "color",
-            "comment": "globalLightPaletteOrange600"
-          },
-          "700": {
-            "value": "#943a00ff",
-            "type": "color",
-            "comment": "globalLightPaletteOrange700"
-          },
-          "800": {
-            "value": "#622700ff",
-            "type": "color",
-            "comment": "globalLightPaletteOrange800"
-          },
-          "900": {
-            "value": "#321400ff",
-            "type": "color",
-            "comment": "globalLightPaletteOrange900"
-          },
-          "1000": {
-            "value": "#000000ff",
-            "type": "color",
-            "comment": "globalLightPaletteOrange1000"
-          }
-        }
-      },
       "dark-palette": {
         "gray": {
           "50": {
@@ -680,6 +430,256 @@
             "value": "#ffffffff",
             "type": "color",
             "comment": "globalDarkPaletteOrange1000"
+          }
+        }
+      },
+      "light-palette": {
+        "gray": {
+          "50": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalLightPaletteGray50"
+          },
+          "75": {
+            "value": "#f7f8fcff",
+            "type": "color",
+            "comment": "globalLightPaletteGray75"
+          },
+          "100": {
+            "value": "#f0f1f9ff",
+            "type": "color",
+            "comment": "globalLightPaletteGray100"
+          },
+          "200": {
+            "value": "#e2e3ebff",
+            "type": "color",
+            "comment": "globalLightPaletteGray200"
+          },
+          "300": {
+            "value": "#c5c6ceff",
+            "type": "color",
+            "comment": "globalLightPaletteGray300"
+          },
+          "400": {
+            "value": "#aaabb3ff",
+            "type": "color",
+            "comment": "globalLightPaletteGray400"
+          },
+          "500": {
+            "value": "#898e97ff",
+            "type": "color",
+            "comment": "globalLightPaletteGray500"
+          },
+          "600": {
+            "value": "#75767dff",
+            "type": "color",
+            "comment": "globalLightPaletteGray600"
+          },
+          "700": {
+            "value": "#585a60ff",
+            "type": "color",
+            "comment": "globalLightPaletteGray700"
+          },
+          "800": {
+            "value": "#3c3c42ff",
+            "type": "color",
+            "comment": "globalLightPaletteGray800"
+          },
+          "900": {
+            "value": "#1c1d20ff",
+            "type": "color",
+            "comment": "globalLightPaletteGray900"
+          },
+          "1000": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalLightPaletteGray1000"
+          }
+        },
+        "green": {
+          "50": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen50"
+          },
+          "75": {
+            "value": "#e9fbe7ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen75"
+          },
+          "100": {
+            "value": "#c4fbc0ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen100"
+          },
+          "200": {
+            "value": "#96ee8eff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen200"
+          },
+          "300": {
+            "value": "#73d86bff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen300"
+          },
+          "400": {
+            "value": "#51c247ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen400"
+          },
+          "500": {
+            "value": "#2fad24ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen500"
+          },
+          "600": {
+            "value": "#1e8f14ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen600"
+          },
+          "700": {
+            "value": "#136f0bff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen700"
+          },
+          "800": {
+            "value": "#0d4a07ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen800"
+          },
+          "900": {
+            "value": "#032700ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen900"
+          },
+          "1000": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalLightPaletteGreen1000"
+          }
+        },
+        "red": {
+          "50": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalLightPaletteRed50"
+          },
+          "75": {
+            "value": "#fff2f4ff",
+            "type": "color",
+            "comment": "globalLightPaletteRed75"
+          },
+          "100": {
+            "value": "#ffcbd3ff",
+            "type": "color",
+            "comment": "globalLightPaletteRed100"
+          },
+          "200": {
+            "value": "#ff98a7ff",
+            "type": "color",
+            "comment": "globalLightPaletteRed200"
+          },
+          "300": {
+            "value": "#ff657cff",
+            "type": "color",
+            "comment": "globalLightPaletteRed300"
+          },
+          "400": {
+            "value": "#fb3351ff",
+            "type": "color",
+            "comment": "globalLightPaletteRed400"
+          },
+          "500": {
+            "value": "#d8102eff",
+            "type": "color",
+            "comment": "globalLightPaletteRed500"
+          },
+          "600": {
+            "value": "#c8001eff",
+            "type": "color",
+            "comment": "globalLightPaletteRed600"
+          },
+          "700": {
+            "value": "#980017ff",
+            "type": "color",
+            "comment": "globalLightPaletteRed700"
+          },
+          "800": {
+            "value": "#63000fff",
+            "type": "color",
+            "comment": "globalLightPaletteRed800"
+          },
+          "900": {
+            "value": "#310007ff",
+            "type": "color",
+            "comment": "globalLightPaletteRed900"
+          },
+          "1000": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalLightPaletteRed1000"
+          }
+        },
+        "orange": {
+          "50": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange50"
+          },
+          "75": {
+            "value": "#fff2e9ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange75"
+          },
+          "100": {
+            "value": "#ffdfcbff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange100"
+          },
+          "200": {
+            "value": "#ffbf94ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange200"
+          },
+          "300": {
+            "value": "#ff9f60ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange300"
+          },
+          "400": {
+            "value": "#ff7e2aff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange400"
+          },
+          "500": {
+            "value": "#f36203ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange500"
+          },
+          "600": {
+            "value": "#c44d00ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange600"
+          },
+          "700": {
+            "value": "#943a00ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange700"
+          },
+          "800": {
+            "value": "#622700ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange800"
+          },
+          "900": {
+            "value": "#321400ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange900"
+          },
+          "1000": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalLightPaletteOrange1000"
           }
         }
       },
