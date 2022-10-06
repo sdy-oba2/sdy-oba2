@@ -433,37 +433,6 @@
           }
         }
       },
-      "static-palette": {
-        "brand": {
-          "primary": {
-            "value": "#d8102eff",
-            "type": "color",
-            "comment": "globalStaticPaletteBrandPrimary"
-          },
-          "secondary": {
-            "value": "#000000ff",
-            "type": "color",
-            "comment": "globalStaticPaletteBrandSecondary"
-          },
-          "tertiary": {
-            "value": "#ffffffff",
-            "type": "color",
-            "comment": "globalStaticPaletteBrandTertiary"
-          }
-        },
-        "static": {
-          "black": {
-            "value": "#000000ff",
-            "type": "color",
-            "comment": "globalStaticPaletteStaticBlack"
-          },
-          "white": {
-            "value": "#ffffffff",
-            "type": "color",
-            "comment": "globalStaticPaletteStaticWhite"
-          }
-        }
-      },
       "dark-palette": {
         "gray": {
           "50": {
@@ -711,6 +680,37 @@
             "value": "#ffffffff",
             "type": "color",
             "comment": "globalDarkPaletteOrange1000"
+          }
+        }
+      },
+      "static-palette": {
+        "brand": {
+          "primary": {
+            "value": "#d8102eff",
+            "type": "color",
+            "comment": "globalStaticPaletteBrandPrimary"
+          },
+          "secondary": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalStaticPaletteBrandSecondary"
+          },
+          "tertiary": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalStaticPaletteBrandTertiary"
+          }
+        },
+        "static": {
+          "black": {
+            "value": "#000000ff",
+            "type": "color",
+            "comment": "globalStaticPaletteStaticBlack"
+          },
+          "white": {
+            "value": "#ffffffff",
+            "type": "color",
+            "comment": "globalStaticPaletteStaticWhite"
           }
         }
       }
